@@ -18,7 +18,7 @@
         <br>
         <a class="d-grid gap-2 col-6 mx-auto" href="add_pdo.php"><input type="button" class="btn btn-primary" value="INSERTAR REGISTROS"></a>
         <br>
-        <a class="d-grid gap-2 col-6 mx-auto" href=""><input type="button" class="btn btn-primary" value="ELIMINAR REGISTROS"></a>
+        <a class="d-grid gap-2 col-6 mx-auto" href="view_pdo.php"><input type="button" class="btn btn-primary" value="ELIMINAR REGISTROS"></a>
         <br>
         <a class="d-grid gap-2 col-6 mx-auto" href=""><input type="button" class="btn btn-primary" value="ACTUALIZAR REGISTROS"></a>
     </div>
