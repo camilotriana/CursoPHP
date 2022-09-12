@@ -13,5 +13,5 @@ try {
     die($th->getMessage());
 } 
 
-header("Location: ../view.php");
+header("Location: view_pdo.php");
 $resultado->closeCursor();
