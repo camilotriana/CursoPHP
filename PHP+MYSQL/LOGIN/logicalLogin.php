@@ -11,7 +11,11 @@ try {
 
     $validacion = $resultado->rowCount();
     if ($validacion!=0) {
-        echo"<h1 style='text-align:center;'>Bienvenido $user </h1>";
+
+        session_start(); //Iniciamos una session
+        $_SESSION["usuarioRegistrado"]=$user; //Almacenar en la variable global el usuario, la variable global se llama usuarioRegistrado
+        header("location:dashBoard.php");
+
     }else{
         header("location:login.php");
     }

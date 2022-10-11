@@ -82,7 +82,8 @@ echo $resultado;
 
 //-------------------------ARRAY-----------------------
 echo nl2br("\n\n");
-$dias = array('LUNES','MARTES','MIERCOLES','JUEVES','VIERNES','SABADO','DOMINGO');
+$dias = array('LUNES','MARTES','MIERCOLES','JUEVES','VIERNES','SABADO');
+array_push($dias,'DOMINGO'); //Agregar dato al final del array
 $estudiante = array('Nombre' => 'Camilo','Apellido' => 'Triana','Edad' => 23 ); //array asociativo 
 var_dump($dias);
 echo nl2br("\n\n");
